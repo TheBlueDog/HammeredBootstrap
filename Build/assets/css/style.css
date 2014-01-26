@@ -2972,7 +2972,7 @@ input[type="button"].btn-block {
       border-radius: 4px 4px 0 0; }
       .nav-tabs > li > a:hover {
         border-color: #eeeeee #eeeeee #dddddd; }
-    .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    .nav-tabs > li.current > a, .nav-tabs > li.current > a:hover, .nav-tabs > li.current > a:focus {
       color: #555555;
       background-color: white;
       border: 1px solid #dddddd;
@@ -2985,10 +2985,10 @@ input[type="button"].btn-block {
     border-radius: 4px; }
   .nav-pills > li + li {
     margin-left: 2px; }
-  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  .nav-pills > li.current > a, .nav-pills > li.current > a:hover, .nav-pills > li.current > a:focus {
     color: white;
     background-color: #428bca; }
-    .nav-pills > li.active > a .caret, .nav-pills > li.active > a:hover .caret, .nav-pills > li.active > a:focus .caret {
+    .nav-pills > li.current > a .caret, .nav-pills > li.current > a:hover .caret, .nav-pills > li.current > a:focus .caret {
       border-top-color: white;
       border-bottom-color: white; }
 
@@ -3020,26 +3020,26 @@ input[type="button"].btn-block {
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     margin-right: 0;
     border-radius: 4px; }
-  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-  .nav-tabs-justified > .active > a:hover,
-  .nav-tabs.nav-justified > .active > a:hover,
-  .nav-tabs-justified > .active > a:focus,
-  .nav-tabs.nav-justified > .active > a:focus {
+  .nav-tabs-justified > .current > a, .nav-tabs.nav-justified > .current > a,
+  .nav-tabs-justified > .current > a:hover,
+  .nav-tabs.nav-justified > .current > a:hover,
+  .nav-tabs-justified > .current > a:focus,
+  .nav-tabs.nav-justified > .current > a:focus {
     border: 1px solid #dddddd; }
   @media (min-width: 768px) {
     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
       border-bottom: 1px solid #dddddd;
       border-radius: 4px 4px 0 0; }
-    .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-    .nav-tabs-justified > .active > a:hover,
-    .nav-tabs.nav-justified > .active > a:hover,
-    .nav-tabs-justified > .active > a:focus,
-    .nav-tabs.nav-justified > .active > a:focus {
+    .nav-tabs-justified > .current > a, .nav-tabs.nav-justified > .current > a,
+    .nav-tabs-justified > .current > a:hover,
+    .nav-tabs.nav-justified > .current > a:hover,
+    .nav-tabs-justified > .current > a:focus,
+    .nav-tabs.nav-justified > .current > a:focus {
       border-bottom-color: white; } }
 
 .tab-content > .tab-pane {
   display: none; }
-.tab-content > .active {
+.tab-content > .current {
   display: block; }
 
 .nav .caret {
@@ -3291,7 +3291,7 @@ input[type="button"].btn-block {
     .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
       color: #333333;
       background-color: transparent; }
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  .navbar-default .navbar-nav > .current > a, .navbar-default .navbar-nav > .current > a:hover, .navbar-default .navbar-nav > .current > a:focus {
     color: #555555;
     background-color: #e7e7e7; }
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -3325,7 +3325,7 @@ input[type="button"].btn-block {
       .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #333333;
         background-color: transparent; }
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    .navbar-default .navbar-nav .open .dropdown-menu > .current > a, .navbar-default .navbar-nav .open .dropdown-menu > .current > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .current > a:focus {
       color: #555555;
       background-color: #e7e7e7; }
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -3351,7 +3351,7 @@ input[type="button"].btn-block {
     .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
       color: white;
       background-color: transparent; }
-  .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  .navbar-inverse .navbar-nav > .current > a, .navbar-inverse .navbar-nav > .current > a:hover, .navbar-inverse .navbar-nav > .current > a:focus {
     color: white;
     background-color: #1a1a1a; }
   .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
@@ -3386,7 +3386,7 @@ input[type="button"].btn-block {
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
         color: white;
         background-color: transparent; }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .current > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .current > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .current > a:focus {
       color: white;
       background-color: #1a1a1a; }
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {

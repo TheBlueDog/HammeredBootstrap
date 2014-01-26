@@ -384,7 +384,7 @@
         background-color: $navbar-default-link-hover-bg;
       }
     }
-    > .active > a {
+    > .current > a {
       &,
       &:hover,
       &:focus {
@@ -457,7 +457,7 @@
             background-color: $navbar-default-link-hover-bg;
           }
         }
-        > .active > a {
+        > .current > a {
           &,
           &:hover,
           &:focus {
@@ -520,7 +520,7 @@
         background-color: $navbar-inverse-link-hover-bg;
       }
     }
-    > .active > a {
+    > .current > a {
       &,
       &:hover,
       &:focus {
@@ -598,7 +598,7 @@
             background-color: $navbar-inverse-link-hover-bg;
           }
         }
-        > .active > a {
+        > .current > a {
           &,
           &:hover,
           &:focus {

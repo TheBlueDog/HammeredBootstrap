@@ -97,7 +97,7 @@
     }
 
     // Active state, and it's :hover to override normal :hover
-    &.active > a {
+    &.current > a {
       &,
       &:hover,
       &:focus {
@@ -132,7 +132,7 @@
     }
 
     // Active state
-    &.active > a {
+    &.current > a {
       &,
       &:hover,
       &:focus {
@@ -206,9 +206,9 @@
     border-radius: $border-radius-base;
   }
 
-  > .active > a,
-  > .active > a:hover,
-  > .active > a:focus {
+  > .current > a,
+  > .current > a:hover,
+  > .current > a:focus {
     border: 1px solid $nav-tabs-justified-link-border-color;
   }
 
@@ -217,9 +217,9 @@
       border-bottom: 1px solid $nav-tabs-justified-link-border-color;
       border-radius: $border-radius-base $border-radius-base 0 0;
     }
-    > .active > a,
-    > .active > a:hover,
-    > .active > a:focus {
+    > .current > a,
+    > .current > a:hover,
+    > .current > a:focus {
       border-bottom-color: $nav-tabs-justified-active-link-border-color;
     }
   }
@@ -234,7 +234,7 @@
   > .tab-pane {
     display: none;
   }
-  > .active {
+  > .current {
     display: block;
   }
 }

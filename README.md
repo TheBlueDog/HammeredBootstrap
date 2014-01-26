@@ -7,7 +7,7 @@ This project was designed to be able to download and drop the folder into your H
 ## SCSS
 
 ### variable.scss
-Modify _variable.scss when changing  any of the elements in the basic Bootstrap system. This file is located in /assets/css.
+Modify _variable.scss when changing any of the elements in the basic Bootstrap system. This file is located in /assets/css.
 
 ### custom.scss
 Use _custom.css to add any custom css to be used in defining the UI.
