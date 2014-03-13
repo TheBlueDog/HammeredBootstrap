@@ -3,22 +3,3 @@ body {
   padding-top: ($navbar-height + 0px);
 }
 
-// Style rules are for the grid demo only. Remove the rule below and the corresponding class in the grid.html before production use.
-.gridColor {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid rgba(86,61,124,.2);
-}
-
-// Style rule below is for demo only in order to make the menu display in the middle of the Style Guide page.
-.theme-dropdown .dropdown-menu {
-  display: block;
-  position: static;
-  margin-bottom: 20px;
-}
-
-
-
